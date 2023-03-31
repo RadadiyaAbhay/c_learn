@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 main() {
-    int num, count = 0;
+	long long num;
+    int count = 0;
     
     printf("Enter a number: ");
-    scanf("%d", &num);
+    scanf("%lld", &num);
     
     while (num !=0) {
         count++;
