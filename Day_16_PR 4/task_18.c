@@ -18,11 +18,5 @@ main(){
 		}
 		printf("\n");
 	}
-	for(row=1;row<=5;row++){
-		
-		
-		
-		
-		printf("\n");
-	}
+	
 }

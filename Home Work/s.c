@@ -5,15 +5,26 @@
 
 int main() {
 	
-    int a,b,c,d,e,f;
-    scanf("%d", &a);
-    scanf("%d", &b);
-    scanf("%d", &c);
-    scanf("%d", &d);
-    scanf("%d", &e);
-    //Complete the code to calculate the sum of the five digits on n.
+    int n,sum,first,second,third,fourth,five,four,t,th,sec,se,s,fir,fi,f;
+    scanf("%d", &n);
     
-    f=a+b+c+d+e;
-    printf("%d",f);
+    first=(n/10);
+    fir=(first/10);
+    fi=(fir/10);
+    f=(fi/10);
+    s=(se%10);
+    second=(n/10);
+    sec=(second/10);
+    se=(sec/10);
+    s=(se%10);
+    third=(n/10);
+    th=(third/10);
+    t=(th%10);
+    fourth=(n/10);
+    four=fourth%10;
+    five=n%10;
+ 
+    sum=f+s+t+four+five;
+    printf("%d",sum);
     return 0;
 }
