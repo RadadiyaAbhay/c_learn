@@ -4,7 +4,7 @@ main(){
     char a[2];
 	
 	printf("Enter character of Day Name = ");
-	scanf("%s",&a);
+	scanf("%s",&a[0]);
 	
 	switch(a[0]){
 		case 'M':
